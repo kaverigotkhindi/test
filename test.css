@@ -1,0 +1,78 @@
+body{
+  background-color:rgb(212,200,195) ;
+  /* display:flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-size: 1rem; 
+  /* display : flex; */
+  /* flex-direction: column; */
+}
+.parent{
+  /* background-color: rgb(255, 0, 191); */
+  /* display :flex; */
+  height: 50vh;
+  width:100vw;
+  /* position: relative; */
+}
+.size{
+  height:100px;
+  width:100px;
+  
+}
+.div1{
+  background-color: rgba(69, 171, 209, 0.5);
+  color: #460808;
+  text-align: center;
+  position : relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* left:30px; */
+  /* margin: 100px; */
+}
+.div2{
+  background-color: #745751;
+  color: #cfc8c2;
+  text-align: center;
+  position : relative;
+  left:100px;
+}
+.div3{
+  
+  background-color: hsl(248, 21%, 58%);
+  color: #bdb8b7;
+  text-align: center;
+  position : relative;
+  left:160px;
+}
+text{
+  font-size: 2rem;
+  margin : 50px;
+}
+
+.red{
+  color:red;
+}
+.black{
+  background-color: rgb(220, 225, 174);
+  height: 10px;
+  width: 10px;
+}
+button{
+  color:red;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+
+}
+ form input{
+width: 200px;
+}
+button{
+  margin: 20px;
+  width: 60px;
+}
